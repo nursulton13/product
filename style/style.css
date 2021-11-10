@@ -1,0 +1,118 @@
+.navbar-brend{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #173A56;
+}
+.navbar-toggler{
+    border-color:transparent !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-nav{
+    align-items: center;
+}
+form{
+    justify-content: center;
+}
+@media screen and (max-width:991px) {
+    .bg-color{
+        display: none;
+    }
+}
+.product h1{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+}
+.cards{
+    background-image: url(../images/Bg1.png);
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.inside-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product img{
+    width: 50px;
+    overflow: hidden;
+}
+h4{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #22343D;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+.manager h1{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+}
+.manager-list img{
+    width: 35px;
+}
+@media screen and (max-width:1200px) {
+    .cards, .product{
+        margin-bottom: 0 !important;
+    }
+}
+.quic{
+    padding-top: 250px;
+    background-image: url(../images/Bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.quic h1{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+}
+.quic .img1{
+    width: 98px;
+}
+@media screen and (max-width:1000px) {
+    .cards, .quic{
+        background-image: none;
+    }
+    .quic{
+        padding-top: 0;
+    }
+    .customer .row1{
+        flex-direction: column-reverse;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:768px) {
+    
+}
